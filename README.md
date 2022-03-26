@@ -1,4 +1,4 @@
-# wsl 常用命令
+# WSL 常用命令
 
 ### 更新 WSL
 ``wsl --update``

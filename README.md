@@ -6,34 +6,58 @@ wsl --update
 ```
 
 ### 设置默认 WSL 版本
-``wsl --set-default-version 2``
+```
+wsl --set-default-version 2
+```
 
 ### 列出可用的 Linux 发行版
-``wsl --list --online``
+```
+wsl --list --online
+```
 
-``wsl -l -o``
+```
+wsl -l -o
+```
 
 ### 安装特定的 Linux 发行版
-``wsl --install -d Ubuntu``
+```
+wsl --install -d Ubuntu
+```
 
 ### 列出已安装的 Linux 发行版
-``wsl -l -v``
+```
+wsl -l -v
+```
 
 ### 设置默认 Linux 发行版
-``wsl --setdefault Ubuntu``
+```
+wsl --setdefault Ubuntu
+```
 
-``wsl -s Debian``
+```
+wsl -s Debian
+```
 
 ### 运行特定的 Linux 发行版
-``wsl -d Debian``
+```
+wsl -d Debian
+```
 
 ### 将 WSL 版本设置为 1 或 2
-``wsl --set-version Debian 2``
+```
+wsl --set-version Debian 2
+```
 
-``wsl --set-version Debian 1``
+```
+wsl --set-version Debian 1
+```
 
 ### 设置root密码
-``sudo  passwd root``
+```
+sudo  passwd root
+```
 
 ### 卸载 Linux 发行版
-``wsl --unregister Ubuntu-xxx``
+```
+wsl --unregister Ubuntu-xxx
+```

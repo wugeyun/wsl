@@ -1,7 +1,9 @@
 # WSL 基本命令
 
 ### 更新 WSL
-``wsl --update``
+```
+wsl --update
+```
 
 ### 设置默认 WSL 版本
 ``wsl --set-default-version 2``

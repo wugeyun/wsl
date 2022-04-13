@@ -1,4 +1,4 @@
-# ubuntu
+# ubuntu use ffmpeg
 
 ```
 apt install -y ffmpeg

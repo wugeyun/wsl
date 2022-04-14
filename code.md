@@ -13,7 +13,7 @@ deploy /addProduct O365ProPlusRetail_zh-cn_Access,Bing,Groove,Lync,OneDrive,OneN
 ```
  激活
  ```
- ospp /ilbyid MondoVolume /sethst:kms.loli.best /setprt:1688 /act
+ospp /insLicID MondoVolume /sethst:kms.loli.beer /setprt:1688 /act
  ```
 
  ---

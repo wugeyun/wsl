@@ -43,7 +43,7 @@ sudo ffmpeg -i https://xxx.com/index.m3u8 -acodec copy -vcodec copy -absf aac_ad
 
 # 压缩视频
 ```
-ffmpeg  -i  Desktop/input.mp4  -s 1920x1080  -b:v 1M  -r 20  Desktop/output.mp4
+ffmpeg  -i  Desktop/input.mp4  -s 1920x1080  -b:v 1M  -r 25  Desktop/output.mp4
 ```
 -s 分辨率
 -b:v 码率

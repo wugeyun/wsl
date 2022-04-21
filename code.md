@@ -14,7 +14,3 @@ deploy /addProduct O365ProPlusRetail_zh-cn_Access,Bing,Groove,Lync,OneDrive,OneN
  ```
 ospp /insLicID MondoVolume /sethst:kms.loli.beer /setprt:1688 /act
  ```
-### wget 静默+续传下载
-```
-wget -q -b -c https://...
-```

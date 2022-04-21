@@ -36,9 +36,9 @@ git push -f origin master
 ```
 git config --global credential.helper store
 ```
+```
 git config credential.helper store
 ```
-
 ### 搜索代码
 ```
 git grep --count your-txt

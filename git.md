@@ -35,6 +35,7 @@ git push -f origin master
 ### 记住密码
 ```
 git config --global credential.helper store
+```
 git config credential.helper store
 ```
 

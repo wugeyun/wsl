@@ -46,7 +46,7 @@ ffmpeg -i https://xxx.com/index.m3u8 -c copy xxx.mp4
 
 # 压缩视频
 ```
-ffmpeg  -i  Desktop/input.mp4  -s 1920x1080  -b:v 1M  -r 25  Desktop/output.mp4
+ffmpeg -i input.mp4 -s 1920x1080 -b:v 1M -r 30 Desktop/output.mp4
 ```
 -s 分辨率
 -b:v 码率

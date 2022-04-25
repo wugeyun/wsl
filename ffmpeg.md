@@ -40,6 +40,9 @@ demo.mp4和demo.m3u8就是原文件和需要转换成的m3u8文件；
 ```
 sudo ffmpeg -i https://xxx.com/index.m3u8 -acodec copy -vcodec copy -absf aac_adtstoasc xxx.mp4
 ```
+```
+ffmpeg -i https://xxx.com/index.m3u8 -c copy xxx.mp4
+```
 
 # 压缩视频
 ```

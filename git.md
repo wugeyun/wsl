@@ -66,3 +66,7 @@ cat /dev/null > /var/spool/mail/root
 vi /etc/aliases
 //添加root: xxx@xxx.com
 ```
+### clone某个分支
+```
+git clone -b xxx https://xxx.git xxx
+```

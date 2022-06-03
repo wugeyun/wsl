@@ -70,3 +70,16 @@ vi /etc/aliases
 ```
 git clone -b xxx https://xxx.git xxx
 ```
+### 为Github账户设置SSH key
+检查是否已生成密钥
+```
+cd ~/.ssh
+```
+或直接生成
+```
+ssh-keygen -t rsa -C "你的邮箱"
+```
+测试连接是否成功
+```
+ssh -T git@github.com
+```

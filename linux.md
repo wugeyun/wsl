@@ -21,3 +21,7 @@ curl -C - -O https://www.xxx.com/html.tar.gz
 ```
 wget -q -b -c https://...
 ```
+### termux 连接手机内存
+```
+termux-setup-storage
+```

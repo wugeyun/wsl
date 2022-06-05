@@ -24,7 +24,7 @@ ffmpeg -version
 ffmpeg -i demo.mp4 -profile:v baseline -level 3.0 -start_number 0 -hls_time 10 -hls_list_size 0 -f hls demo.m3u8
 ```
 ```
-ffmpeg -i demo.mp4 -level 3.0 -start_number 0 -hls_time 20 -hls_list_size 0 -f hls demo.m3u8
+ffmpeg -i demo.mp4 -start_number 0 -hls_list_size 0 -f hls demo.m3u8
 ```
 
 demo.mp4和demo.m3u8就是原文件和需要转换成的m3u8文件；

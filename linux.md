@@ -25,6 +25,10 @@ wget -q -b -c https://...
 ```
 termux-setup-storage
 ```
+### 清除本地ssh信息
+```
+ssh-keygen -R "ip"
+```
 ### rm权限不足
 ```
 chattr -i xxx

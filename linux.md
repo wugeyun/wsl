@@ -25,6 +25,10 @@ wget -q -b -c https://...
 ```
 termux-setup-storage
 ```
+### rm权限不足
+```
+chattr -i xxx
+```
 ### 挂载数据盘
 ```
 fdisk -l

@@ -25,3 +25,16 @@ wget -q -b -c https://...
 ```
 termux-setup-storage
 ```
+### 挂载数据盘
+```
+fdisk -l
+```
+```
+echo "/dev/vdb1 /www ext4 defaults 0 0" >> /etc/fstab
+```
+```
+mount -a
+```
+```
+df -h
+```

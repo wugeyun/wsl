@@ -6,6 +6,8 @@ start/d "D:\Program Files\Tencent\WeChat\" WeChat.exe
 
 ### office
 
+[官网](https://otp.landian.vip/zh-cn/)
+
  安装
 ```
 deploy /addProduct O365ProPlusRetail_zh-cn_Access,Bing,Groove,Lync,OneDrive,OneNote,Outlook,Publisher,Teams /channel Current /downloadFirst

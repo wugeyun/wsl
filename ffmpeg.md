@@ -63,7 +63,7 @@ ffmpeg -i input.mp4 -ss 00:02:00 -t 00:01:00 -codec copy output.mp4
 
 ## 更多命令
 
-命令	解释
+```
 
 -h	帮助
 
@@ -134,3 +134,4 @@ ffmpeg -i input.mp4 -ss 00:02:00 -t 00:01:00 -codec copy output.mp4
 -b:a:0 128k	指定第一个音频流的比特率为128k
 
 -c:s copy	字幕不变
+```

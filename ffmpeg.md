@@ -54,3 +54,9 @@ ffmpeg -i input.mp4 -s 1920x1080 -b:v 1M -r 30 Desktop/output.mp4
 -s 分辨率
 -b:v 码率
 -r 帧率
+
+# 无损快速分割视频
+```
+ffmpeg -i input.mp4 -ss 00:02:00 -t 00:01:00 -codec copy output.mp4
+```
+截取原视频中，自2分钟开始持续一分钟的视频

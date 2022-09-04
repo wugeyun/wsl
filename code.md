@@ -16,3 +16,10 @@ deploy /addProduct O365ProPlusRetail_zh-cn_Access,Bing,Groove,Lync,OneDrive,OneN
  ```
 ospp /insLicID MondoVolume /sethst:kms.loli.beer /setprt:1688 /act
  ```
+ 
+ ### windows相关
+ 
+ 查看已激活密匙
+ ```
+ wmic path SoftwareLicensingService get OA3xOriginalProductKey
+ ```

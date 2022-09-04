@@ -4,7 +4,7 @@
 
 主要有 CheckHealth、ScanHealth 和 RestoreHealh 三个阶段，
 
-需在Windows PowerShell（管理员）中执行：
+需在Windows PowerShell（管理员）中执行（win+x）：
 
 ### 1，DISM CheckHealth选项(健康检查)
 ```

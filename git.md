@@ -70,6 +70,10 @@ vi /etc/aliases
 ```
 git clone -b xxx https://xxx.git xxx
 ```
+### https模式切换到ssh
+```
+git remote set-url origin {ssh-url}
+```
 ### 为Github账户设置SSH key
 检查是否已生成密钥
 ```

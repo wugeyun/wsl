@@ -37,6 +37,22 @@ demo.mp4和demo.m3u8就是原文件和需要转换成的m3u8文件；
 
 -hls_time 10 标识每10秒切一个
 
+# ChatGPT版
+```
+ffmpeg -i input.mp4 -c:v libx264 -c:a aac -hls_list_size 0 -hls_time 10 m3u8output.m3u8
+```
+-i input.mp4: 指定输入文件的路径和文件名。
+
+-c:v libx264: 指定使用libx264编码器对视频流进行编码。
+
+-c:a aac: 指定使用AAC编码器对音频流进行编码。
+
+-hls_list_size 0: 指定生成的m3u8文件中包含的ts文件的最大数量，这里设置为0表示不限制。
+
+-hls_time 10: 指定生成的每个ts文件的时长，单位为秒。
+
+output.m3u8: 指定输出的M3U8文件的路径和文件名。
+
 
 # m3u8转mp4
 
@@ -46,6 +62,19 @@ sudo ffmpeg -i https://xxx.com/index.m3u8 -acodec copy -vcodec copy -absf aac_ad
 ```
 ffmpeg -i https://xxx.com/index.m3u8 -c copy xxx.mp4
 ```
+
+# ChatGPT版
+```
+ffmpeg -protocol_whitelist "file,http,https,tcp,tls" -i input.m3u8 -c copy output.mp4
+```
+-protocol_whitelist "file,http,https,tcp,tls": 指定协议白名单，这里设置为支持本地文件、HTTP、HTTPS、TCP和TLS协议。
+
+-i input.m3u8: 指定输入的M3U8文件的路径和文件名。
+
+-c copy: 指定使用“copy”方式进行转换，这将只复制输入的视频和音频流，而不重新编码它们，以保持最佳质量和速度。
+
+output.mp4: 指定输出的MP4文件的路径和文件名。
+
 
 # 压缩视频
 ```

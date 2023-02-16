@@ -39,7 +39,7 @@ demo.mp4和demo.m3u8就是原文件和需要转换成的m3u8文件；
 
 # ChatGPT版
 ```
-ffmpeg -i input.mp4 -c:v libx264 -c:a aac -hls_list_size 0 -hls_time 10 m3u8output.m3u8
+ffmpeg -i input.mp4 -c:v libx264 -c:a aac -hls_list_size 0 -hls_time 10 m3u8/output.m3u8
 ```
 -i input.mp4: 指定输入文件的路径和文件名。
 

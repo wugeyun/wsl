@@ -68,7 +68,7 @@ vi /etc/aliases
 ```
 ### clone某个分支
 ```
-git clone -b xxx https://xxx.git xxx
+git clone -b xxx --single-branch https://xxx.git xxx
 ```
 ### https模式切换到ssh
 ```

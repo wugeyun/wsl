@@ -1,5 +1,10 @@
 # WSL 基本命令
 
+### 安装对WSL的支持 PowerShell 管理员模式
+```
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+```
+
 ### 更新 WSL
 ```
 wsl --update

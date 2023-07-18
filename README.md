@@ -66,3 +66,8 @@ sudo  passwd root
 ```
 wsl --unregister Ubuntu-xxx
 ```
+
+### 升级WSL2内核
+```
+https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+```

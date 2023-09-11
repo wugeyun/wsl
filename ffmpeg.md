@@ -39,7 +39,7 @@ demo.mp4和demo.m3u8就是原文件和需要转换成的m3u8文件；
 
 # ChatGPT版
 ```
-ffmpeg -i input.mp4 -c:v libx264 -c:a aac -hls_list_size 0 -hls_time 5 m3u8/output.m3u8
+ffmpeg -i input.mp4 -c:v libx264 -c:a aac -f hls -hls_time 10 -hls_list_size 0 m3u8/output.m3u8
 ```
 -i input.mp4: 指定输入文件的路径和文件名。
 
@@ -47,9 +47,11 @@ ffmpeg -i input.mp4 -c:v libx264 -c:a aac -hls_list_size 0 -hls_time 5 m3u8/outp
 
 -c:a aac: 指定使用AAC编码器对音频流进行编码。
 
--hls_list_size 0: 指定生成的m3u8文件中包含的ts文件的最大数量，这里设置为0表示不限制。
+-f hls：指定输出格式为HLS。
 
 -hls_time 10: 指定生成的每个ts文件的时长，单位为秒。
+
+-hls_list_size 0: 指定生成的m3u8文件中包含的ts文件的最大数量，这里设置为0表示不限制。
 
 output.m3u8: 指定输出的M3U8文件的路径和文件名。
 

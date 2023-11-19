@@ -6,6 +6,10 @@
 
 需在Windows PowerShell（管理员）中执行（win+x）：
 
+```
+sfc /SCANNOW
+```
+
 ### 1，DISM CheckHealth选项(健康检查)
 ```
 DISM /Online /Cleanup-Image /CheckHealth
